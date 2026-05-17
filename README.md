@@ -3,7 +3,8 @@ All dashboards are fully interactive, all visible filters are adjustable by any 
 
 **Introduction to Re-Admission Problem:**
 
-Tableau Public: https://public.tableau.com/views/HospitalReAdmissionRatebyRegionalPollutantsAnalysis_17725543199720/HospitalReAdmissionRatebyRegionalPollutantAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
+Tableau Public: 
+https://public.tableau.com/app/profile/josephflumen/viz/HospitalReAdmissionRatebyRegionalPollutantsAnalysis/HospitalReAdmissionRatebyRegionalPollutantAnalysis
 
 This dashboard visually introduces two concepts: Patients who are in the hospital longer are at much higher risk of re-admission, and the introduction of many new pollutants at increasing levels in our environment over the last 50 years.
 
