@@ -121,7 +121,8 @@ I got started with this using a basic Flask scaffold with two placeholder routes
 
 
 
-# Hospital ReAdmission Rate By Local Pollutant Levels
+
+# Data Analysis Project 1): Hospital ReAdmission Rate By Local Pollutant Levels
 All dashboards are fully interactive, all visible filters are adjustable by any user. 
 
 **Introduction to Re-Admission Problem:**
@@ -150,7 +151,7 @@ Tableau Public: https://public.tableau.com/shared/DRHBQXK72?:display_count=n&:or
 <img width="1920" height="1080" alt="PollutantsStateBar" src="https://github.com/user-attachments/assets/74ef48a6-8208-4bd5-8ca4-c126f0930835" />
 
 
-# Respiratory Disease as Cause of Death Rate by Ammonium Levels Analysis
+# Data Analysis Project 2) Respiratory Disease as Cause of Death Rate by Ammonium Levels Analysis
 **Introduction to Respiratory Problem:**
 
 This dashboard is designed to introduce users to two trends: First, there is a significant discrepancy in respiratory disease death rates based on state location. Second, Ammonium levels in the environment have significantly increased over the last 50 years. 
