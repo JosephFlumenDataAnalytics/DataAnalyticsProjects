@@ -1,3 +1,126 @@
+# ReadMe: Flumen Data Analytics Consulting Website Setup
+
+**Live site: [https://flumendataanalytics.com**](https://flumendataanalytics.com/)
+
+A production-deployed company website for Flumen Data Analytics Consulting, my Northern Colorado data analytics service for local restaurants and small businesses. Built on top of a previously developed partial Flask scaffolding.
+
+
+## **Stack:**
+
+- **Backend:** Python, Flask, Jinja2 templating
+
+- **Frontend:** HTML, CSS, Bootstrap 5
+
+- **Embedding:** Metabase SDK (self-hosted), JWT signed embedding
+
+- **Server:** Ubuntu 24, DigitalOcean Droplet
+
+- **Web Server:** nginx (reverse proxy)
+
+- **SSL:** Let's Encrypt via Certbot (auto-renewing)
+
+- **Process Management:** systemd service
+
+
+## **Features:**
+
+- Fully deployed production site served over HTTPS at a custom domain
+
+- Live interactive Metabase dashboard embedded via signed JWT tokens, including tooltips and filters
+
+- Pricing section with four service tiers
+
+- Data privacy accordion with Colorado Privacy Act compliance language
+
+- Scroll reveal animations
+
+- Sticky navbar with contact information
+
+- SEO meta tags, canonical URL configuration, and Google Search Console sitemap integration
+
+- www to non-www redirect via nginx
+
+- Responsive layout
+
+
+## 1) Architecture
+
+```
+flumendataanalytics.com (Namecheap DNS)  
+        │  
+        ▼  
+nginx (reverse proxy, SSL termination)  
+        │  
+        ▼  
+Flask app (port 5000, systemd service)  
+        │  
+        ├── / ──────────────────── renders analytics/index.html  
+        ├── /analytics ─────────── renders analytics/index.html  
+        ├── /analytics/token/\<n\> ── generates signed JWT for Metabase embed  
+        └── /sitemap.xml ────────── serves XML sitemap for Google indexing  
+                │  
+                ▼  
+        dashboard.flumendataanalytics.com  
+        (self-hosted Metabase, Docker, port 3000)
+```
+
+
+## 2) Project Structure
+
+```
+├── run.py                          \# Flask entry point  
+├── app/  
+│   ├── \_\_init\_\_.py                 \# App factory, blueprint registration  
+│   └── routes/  
+│       ├── flumen\_site.py          \# Main site routes including sitemap  
+│       └── analytics.py            \# Dashboard token endpoint, JWT signing  
+└── templates/  
+    ├── flumen\_site/  
+    │   ├── base.html               \# Master layout, navbar, SEO meta tags  
+    │   └── index.html              \# Original scaffold homepage  
+    └── analytics/  
+        └── index.html              \# Main page: hero, dashboard, pricing, privacy
+```
+
+
+## 3) Metabase Embedding
+
+Dashboards are embedded using Metabase's signed embedding SDK. Rather than hardcoding a JWT token (which expires in 10 minutes), Flask generates a fresh signed token on every page load via the `/analytics/token/\<slot\>` endpoint. The page fetches the token via JavaScript and passes it to the `\<metabase-dashboard\>` web component at runtime.
+
+```
+payload = \{  
+    "resource": \{"dashboard": dashboard\_id\},  
+    "params": \{\},  
+    "iat": now,  
+    "exp": now + 600,  
+    "\_embedding\_params": embedding\_params  
+\}  
+token = jwt.encode(payload, METABASE\_EMBED\_SECRET, algorithm="HS256")
+```
+
+
+## 4) Deployment
+
+The app runs as a systemd service on a DigitalOcean Ubuntu droplet, managed by nginx as a reverse proxy. SSL is handled by Let's Encrypt with automatic renewal via Certbot. DNS is managed through Namecheap with records for the main domain, www redirect, Metabase subdomain, and ProtonMail.
+
+
+## In Summary:
+
+I got started with this using a basic Flask scaffold with two placeholder routes and no front end. Starting from that base and with no prior web development experience, I built and deployed:
+
+- The full front end design including layout, typography, color scheme, animations, and responsive behavior
+
+- The Metabase JWT embedding system
+
+- All server infrastructure including nginx configuration, SSL, DNS management, and systemd service setup
+
+- SEO configuration including meta tags, canonical URLs, sitemap, and Google Search Console integration
+
+- Google Business Profile integration for online search visibility
+
+
+
+
 # Hospital ReAdmission Rate By Local Pollutant Levels
 All dashboards are fully interactive, all visible filters are adjustable by any user. 
 
