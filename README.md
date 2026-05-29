@@ -110,7 +110,7 @@ I got started with this using a basic Flask scaffold with two placeholder routes
 
 - The full front end design including layout, typography, color scheme, animations, and responsive behavior
 
-- The Metabase JWT embedding system
+- The Metabase JWT embedding system. All dashboards are included as PNGs under the "Dashboards" Folder on this repository, and the dashboard is live on the website linked above.
 
 - All server infrastructure including nginx configuration, SSL, DNS management, and systemd service setup
 
