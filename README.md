@@ -188,27 +188,27 @@ Tableau Public: https://public.tableau.com/shared/P7FZY3BKF?:display_count=n&:or
 
 
 ## Data Analytics Project Write-Ups
-Summary write-ups for projects completed during Master of Science program in Data Analytics. The majority of projects analyze a hospital patient dataset of 10,000 records covering detailed patient information.
+Summary write-ups for data analytics projects completed during Master of Science program in Data Analytics. The majority of projects analyze a hospital patient dataset of 10,000 records covering detailed patient information.
 
 ---
 
 ### Projects
 
-| Course | Topic | Technique | Code | Write-Up |
-|--------|-------|-----------|------|----------|
-| D206 | Data Cleaning & PCA | Outlier imputation, categorical re-expression, principal component analysis | [.py](Projects/ExecutableCleaningFile.py) | [PDF](Project%20Summaries/DataCleaning_PCA.pdf) |
-| D207 | Exploratory Data Analysis | Chi-square test of independence | [.py](Projects/Chi%20Square.py) | [PDF](Project%20Summaries/Chi_square_Summary.pdf) |
-| D208 Task 1 | Predictive Modeling | Multiple linear regression | [.py](Projects/LinearRegression.py) | [PDF](Project%20Summaries/LinearRegression_Summary.pdf) |
-| D208 Task 2 | Predictive Modeling | Logistic regression | [.py](Projects/LogisticRegression.py) | [PDF](Project%20Summaries/LogisticRegression_Modeling_Summary.pdf) |
-| D209 Task 1 | Data Mining | K-nearest neighbor classification | [.py](Projects/KNN%20Modeling.py) | [PDF](Project%20Summaries/KNN_Modeling_Summary.pdf) |
-| D209 Task 2 | Data Mining | Random forest regression | [.py](Projects/Data%20Mining%3A%20Random%20Forest%20Regression.py) | [PDF](Project%20Summaries/RandomForestRegression_Summary.pdf) |
-| D210 | Reporting & Visualization | Tableau dashboard, EPA air quality integration | [.sql](Projects/Readmission%20Rate%20by%20Pollutants.sql) | [PDF](Project%20Summaries/ReadmissionRate_byPollutants_Summary.pdf) |
-| D212 Task 1 | Advanced Data Analytics | K-means clustering | [.py](Projects/KMeansClustering.py) | [PDF](Project%20Summaries/KMeansClustering_Summary.pdf) |
-| D212 Task 2 | Advanced Data Analytics | Principal component analysis | [.py](Projects/Principal%20Component%20Analysis.py) | [PDF](Project%20Summaries/PrincipalComponentAnalysis.pdf) |
-| D212 Task 3 | Advanced Data Analytics | Market basket analysis, Apriori algorithm | [.py](Projects/Market%20Basket%20Analysis.py) | [PDF](Project%20Summaries/MarketBasket_Summary.pdf) |
-| D213 Task 1 | Advanced Analytics | ARIMA time series forecasting | [.py](Projects/Time%20Series%20Modeling.py) | [PDF](Project%20Summaries/TimeSeriesModeling_Summary.pdf) |
-| D213 Task 2 | Advanced Analytics | LSTM neural network, sentiment analysis | [.py](Projects/Sentiment%20Analysis.py) | [PDF](Project%20Summaries/Sentiment_Analysis_Summary.pdf) |
-| — | SQL Data Acquisition | Data querying and preparation | [.sql](Projects/SQL%20Data%20Acquisition.sql) | — |
+| Topic | Technique | Code | Write-Up |
+|-------|-----------|------|----------|
+| Data Cleaning & PCA | Outlier imputation, categorical re-expression, principal component analysis | [.py](Projects/ExecutableCleaningFile.py) | [PDF](Project%20Summaries/DataCleaning_PCA.pdf) |
+| Exploratory Data Analysis | Chi-square test of independence | [.py](Projects/Chi%20Square.py) | [PDF](Project%20Summaries/Chi_square_Summary.pdf) |
+| Predictive Modeling | Multiple linear regression | [.py](Projects/LinearRegression.py) | [PDF](Project%20Summaries/LinearRegression_Summary.pdf) |
+| Predictive Modeling | Logistic regression | [.py](Projects/LogisticRegression.py) | [PDF](Project%20Summaries/LogisticRegression_Modeling_Summary.pdf) |
+| Data Mining | K-nearest neighbor classification | [.py](Projects/KNN%20Modeling.py) | [PDF](Project%20Summaries/KNN_Modeling_Summary.pdf) |
+| Data Mining | Random forest regression | [.py](Projects/Data%20Mining%3A%20Random%20Forest%20Regression.py) | [PDF](Project%20Summaries/RandomForestRegression_Summary.pdf) |
+| Reporting & Visualization | Tableau dashboard, EPA air quality integration | [.sql](Projects/Readmission%20Rate%20by%20Pollutants.sql) | [PDF](Project%20Summaries/ReadmissionRate_byPollutants_Summary.pdf) |
+| Advanced Data Analytics | K-means clustering | [.py](Projects/KMeansClustering.py) | [PDF](Project%20Summaries/KMeansClustering_Summary.pdf) |
+| Advanced Data Analytics | Principal component analysis | [.py](Projects/Principal%20Component%20Analysis.py) | [PDF](Project%20Summaries/PrincipalComponentAnalysis.pdf) |
+| Advanced Data Analytics | Market basket analysis, Apriori algorithm | [.py](Projects/Market%20Basket%20Analysis.py) | [PDF](Project%20Summaries/MarketBasket_Summary.pdf) |
+| Advanced Analytics | ARIMA time series forecasting | [.py](Projects/Time%20Series%20Modeling.py) | [PDF](Project%20Summaries/TimeSeriesModeling_Summary.pdf) |
+| Advanced Analytics | LSTM neural network, sentiment analysis | [.py](Projects/Sentiment%20Analysis.py) | [PDF](Project%20Summaries/Sentiment_Analysis_Summary.pdf) |
+| SQL Data Acquisition | Data querying and preparation | [.sql](Projects/SQL%20Data%20Acquisition.sql) | — |
 
 ---
 
