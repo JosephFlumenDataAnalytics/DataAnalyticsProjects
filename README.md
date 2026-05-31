@@ -188,13 +188,14 @@ Tableau Public: https://public.tableau.com/shared/P7FZY3BKF?:display_count=n&:or
 
 
 ## Data Analytics Project Write-Ups
+Project files and summary write-ups for data analytics projects completed during Master of Science program in Data Analytics. The majority of projects analyze a hospital patient dataset of 10,000 records covering detailed patient information.
 
- Summary write-ups for data analytics projects completed during Master of Science program in Data Analytics. The majority of projects analyze a hospital patient dataset of 10,000 records covering detailed patient information.
 ---
-
 
 ### Projects
 
+| Course | Topic | Technique | Write-Up |
+|--------|-------|-----------|----------|
 | D206 | Data Cleaning & PCA | Outlier imputation, categorical re-expression, principal component analysis | [PDF](Project%20Summaries/DataCleaning_PCA.pdf) |
 | D207 | Exploratory Data Analysis | Chi-square test of independence | [PDF](Project%20Summaries/Chi_square_Summary.pdf) |
 | D208 Task 1 | Predictive Modeling | Multiple linear regression | [PDF](Project%20Summaries/LinearRegression_Summary.pdf) |
@@ -207,8 +208,8 @@ Tableau Public: https://public.tableau.com/shared/P7FZY3BKF?:display_count=n&:or
 | D212 Task 3 | Advanced Data Analytics | Market basket analysis, Apriori algorithm | [PDF](Project%20Summaries/MarketBasket_Summary.pdf) |
 | D213 Task 1 | Advanced Analytics | ARIMA time series forecasting | [PDF](Project%20Summaries/TimeSeriesModeling_Summary.pdf) |
 | D213 Task 2 | Advanced Analytics | LSTM neural network, sentiment analysis | [PDF](Project%20Summaries/Sentiment_Analysis_Summary.pdf) |
+
 ---
 
 ### Tools & Libraries
-
-Python,SQL, pandas, numpy, scikit-learn, statsmodels, seaborn, matplotlib, tensorflow, mlxtend, Tableau, MySQL
+Python, SQL, pandas, numpy, scikit-learn, statsmodels, seaborn, matplotlib, tensorflow, mlxtend, Tableau, MySQL
