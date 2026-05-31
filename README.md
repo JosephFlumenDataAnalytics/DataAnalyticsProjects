@@ -188,7 +188,7 @@ Tableau Public: https://public.tableau.com/shared/P7FZY3BKF?:display_count=n&:or
 
 
 ## Data Analytics Project Write-Ups
-Summary write-ups for data analytics projects completed during Master of Science program in Data Analytics. The majority of projects analyze a hospital patient dataset of 10,000 records covering detailed patient information.
+Summary write-ups for projects completed during Master of Science program in Data Analytics. The majority of projects analyze a hospital patient dataset of 10,000 records covering detailed patient information.
 
 ---
 
