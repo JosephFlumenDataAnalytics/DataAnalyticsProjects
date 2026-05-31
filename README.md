@@ -206,23 +206,20 @@ Summarized write-ups for data analytics projects completed as part of a B.S. in 
 
 ### Projects
 
-| Course | Topic | Technique | Write-Up |
-|--------|-------|-----------|----------|
-| D206 | Data Cleaning & PCA | Outlier imputation, categorical re-expression, principal component analysis | [PDF](Project%20Summaries/Data_Cleaning_PCA_Portfolio.pdf) |
-| D207 | Exploratory Data Analysis | Chi-square test of independence | [PDF](Project%20Summaries/Chi_Square_Analysis_Portfolio.pdf) |
-| D208 Task 1 | Predictive Modeling | Multiple linear regression | [PDF](Project%20Summaries/Linear_Regression_Modeling_Portfolio.pdf) |
-| D208 Task 2 | Predictive Modeling | Logistic regression | [PDF](Project%20Summaries/Logistic_Regression_Modeling_Portfolio.pdf) |
-| D209 Task 1 | Data Mining | K-nearest neighbor classification | [PDF](Project%20Summaries/KNN_Modeling_Portfolio.pdf) |
-| D209 Task 2 | Data Mining | Random forest regression | [PDF](Project%20Summaries/Random_Forest_Regression_Portfolio.pdf) |
-| D210 | Reporting & Visualization | Tableau dashboard, EPA air quality integration | [PDF](Project%20Summaries/Readmission_Rate_by_Pollutants_Portfolio.pdf) |
-| D212 Task 1 | Advanced Data Analytics | K-means clustering | [PDF](Project%20Summaries/Clustering_Techniques_Portfolio.pdf) |
-| D212 Task 2 | Advanced Data Analytics | Principal component analysis | [PDF](Project%20Summaries/PCA_Analysis_Portfolio.pdf) |
-| D212 Task 3 | Advanced Data Analytics | Market basket analysis, Apriori algorithm | [PDF](Project%20Summaries/Market_Basket_Analysis_Portfolio.pdf) |
-| D213 Task 1 | Advanced Analytics | ARIMA time series forecasting | [PDF](Project%20Summaries/Time_Series_Modeling_Portfolio.pdf) |
-| D213 Task 2 | Advanced Analytics | LSTM neural network, sentiment analysis | [PDF](Project%20Summaries/Sentiment_Analysis_Portfolio.pdf) |
-
+| D206 | Data Cleaning & PCA | Outlier imputation, categorical re-expression, principal component analysis | [PDF](Project%20Summaries/DataCleaning_PCA.pdf) |
+| D207 | Exploratory Data Analysis | Chi-square test of independence | [PDF](Project%20Summaries/Chi_square_Summary.pdf) |
+| D208 Task 1 | Predictive Modeling | Multiple linear regression | [PDF](Project%20Summaries/LinearRegression_Summary.pdf) |
+| D208 Task 2 | Predictive Modeling | Logistic regression | [PDF](Project%20Summaries/LogisticRegression_Modeling_Summary.pdf) |
+| D209 Task 1 | Data Mining | K-nearest neighbor classification | [PDF](Project%20Summaries/KNN_Modeling_Summary.pdf) |
+| D209 Task 2 | Data Mining | Random forest regression | [PDF](Project%20Summaries/RandomForestRegression_Summary.pdf) |
+| D210 | Reporting & Visualization | Tableau dashboard, EPA air quality integration | [PDF](Project%20Summaries/ReadmissionRate_byPollutants_Summary.pdf) |
+| D212 Task 1 | Advanced Data Analytics | K-means clustering | [PDF](Project%20Summaries/KMeansClustering_Summary.pdf) |
+| D212 Task 2 | Advanced Data Analytics | Principal component analysis | [PDF](Project%20Summaries/PrincipalComponentAnalysis.pdf) |
+| D212 Task 3 | Advanced Data Analytics | Market basket analysis, Apriori algorithm | [PDF](Project%20Summaries/MarketBasket_Summary.pdf) |
+| D213 Task 1 | Advanced Analytics | ARIMA time series forecasting | [PDF](Project%20Summaries/TimeSeriesModeling_Summary.pdf) |
+| D213 Task 2 | Advanced Analytics | LSTM neural network, sentiment analysis | [PDF](Project%20Summaries/Sentiment_Analysis_Summary.pdf) |
 ---
 
 ### Tools & Libraries
 
-Python, pandas, numpy, scikit-learn, statsmodels, seaborn, matplotlib, tensorflow, mlxtend, Tableau
+Python,SQL, pandas, numpy, scikit-learn, statsmodels, seaborn, matplotlib, tensorflow, mlxtend, Tableau, MySQL
