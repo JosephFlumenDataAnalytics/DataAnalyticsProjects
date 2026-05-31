@@ -186,3 +186,43 @@ Tableau Public: https://public.tableau.com/shared/P7FZY3BKF?:display_count=n&:or
 
 <img width="1920" height="1080" alt="DB4" src="https://github.com/user-attachments/assets/7ec466ed-1190-4783-ad20-19da79efeec2" />
 
+## Data Analytics Project Write-Ups
+
+Summarized write-ups for data analytics projects completed as part of a B.S. in Data Analytics. The majority of projects analyze a hospital patient dataset of 10,000 records covering demographics, diagnoses, treatment details, and billing. Projects span data cleaning, statistical modeling, machine learning, and data visualization.
+
+---
+
+### Dataset
+
+**Hospital Patient Data** — 10,000 patient records including demographics, income, clinical variables (stroke history, complication risk, vitamin D levels, initial days, total charge), and survey responses. Used across D206 through D212.
+
+**EPA Air Quality Annual Summary** — External public dataset from [Kaggle](https://www.kaggle.com/datasets/epa/air-quality) joined to the hospital data by state and county for the D210 visualization project.
+
+**Customer Reviews** — Amazon, IMDB, and Yelp review datasets used for sentiment analysis in D213 Task 2.
+
+**Hospital Revenue** — Daily revenue time series used for ARIMA forecasting in D213 Task 1.
+
+---
+
+### Projects
+
+| Course | Topic | Technique | Write-Up |
+|--------|-------|-----------|----------|
+| D206 | Data Cleaning & PCA | Outlier imputation, categorical re-expression, principal component analysis | [PDF](Project%20Summaries/Data_Cleaning_PCA_Portfolio.pdf) |
+| D207 | Exploratory Data Analysis | Chi-square test of independence | [PDF](Project%20Summaries/Chi_Square_Analysis_Portfolio.pdf) |
+| D208 Task 1 | Predictive Modeling | Multiple linear regression | [PDF](Project%20Summaries/Linear_Regression_Modeling_Portfolio.pdf) |
+| D208 Task 2 | Predictive Modeling | Logistic regression | [PDF](Project%20Summaries/Logistic_Regression_Modeling_Portfolio.pdf) |
+| D209 Task 1 | Data Mining | K-nearest neighbor classification | [PDF](Project%20Summaries/KNN_Modeling_Portfolio.pdf) |
+| D209 Task 2 | Data Mining | Random forest regression | [PDF](Project%20Summaries/Random_Forest_Regression_Portfolio.pdf) |
+| D210 | Reporting & Visualization | Tableau dashboard, EPA air quality integration | [PDF](Project%20Summaries/Readmission_Rate_by_Pollutants_Portfolio.pdf) |
+| D212 Task 1 | Advanced Data Analytics | K-means clustering | [PDF](Project%20Summaries/Clustering_Techniques_Portfolio.pdf) |
+| D212 Task 2 | Advanced Data Analytics | Principal component analysis | [PDF](Project%20Summaries/PCA_Analysis_Portfolio.pdf) |
+| D212 Task 3 | Advanced Data Analytics | Market basket analysis, Apriori algorithm | [PDF](Project%20Summaries/Market_Basket_Analysis_Portfolio.pdf) |
+| D213 Task 1 | Advanced Analytics | ARIMA time series forecasting | [PDF](Project%20Summaries/Time_Series_Modeling_Portfolio.pdf) |
+| D213 Task 2 | Advanced Analytics | LSTM neural network, sentiment analysis | [PDF](Project%20Summaries/Sentiment_Analysis_Portfolio.pdf) |
+
+---
+
+### Tools & Libraries
+
+Python, pandas, numpy, scikit-learn, statsmodels, seaborn, matplotlib, tensorflow, mlxtend, Tableau
