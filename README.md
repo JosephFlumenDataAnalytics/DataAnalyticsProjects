@@ -186,23 +186,12 @@ Tableau Public: https://public.tableau.com/shared/P7FZY3BKF?:display_count=n&:or
 
 <img width="1920" height="1080" alt="DB4" src="https://github.com/user-attachments/assets/7ec466ed-1190-4783-ad20-19da79efeec2" />
 
+
 ## Data Analytics Project Write-Ups
 
-Summarized write-ups for data analytics projects completed as part of a B.S. in Data Analytics. The majority of projects analyze a hospital patient dataset of 10,000 records covering demographics, diagnoses, treatment details, and billing. Projects span data cleaning, statistical modeling, machine learning, and data visualization.
-
+ Summary write-ups for data analytics projects completed during Master of Science program in Data Analytics. The majority of projects analyze a hospital patient dataset of 10,000 records covering detailed patient information.
 ---
 
-### Dataset
-
-**Hospital Patient Data** — 10,000 patient records including demographics, income, clinical variables (stroke history, complication risk, vitamin D levels, initial days, total charge), and survey responses. Used across D206 through D212.
-
-**EPA Air Quality Annual Summary** — External public dataset from [Kaggle](https://www.kaggle.com/datasets/epa/air-quality) joined to the hospital data by state and county for the D210 visualization project.
-
-**Customer Reviews** — Amazon, IMDB, and Yelp review datasets used for sentiment analysis in D213 Task 2.
-
-**Hospital Revenue** — Daily revenue time series used for ARIMA forecasting in D213 Task 1.
-
----
 
 ### Projects
 
