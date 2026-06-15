@@ -17,17 +17,12 @@ Interactive dashboards, statistical modeling, and machine learning projects buil
 An interactive tool exploring whether environmental pollutant levels correlate with hospital readmission rates at the county level. Surfaces two patterns: longer hospital stays carry a higher readmission risk, and a wide range of pollutants have risen across the United States over the last fifty years.
  
 - **Intro dashboard:** [view on Tableau Public](https://public.tableau.com/app/profile/josephflumen/viz/HospitalReAdmissionRatebyRegionalPollutantsAnalysis/HospitalReAdmissionRatebyRegionalPollutantAnalysis)
-- **Pollutant and readmission maps:** [view on Tableau Public](https://public.tableau.com/shared/WC8NG6Q28?:display_count=n&:origin=viz_share_link)
-- **Pollutants by state, comparative bar chart:** [view on Tableau Public](https://public.tableau.com/shared/DRHBQXK72?:display_count=n&:origin=viz_share_link)
  
 ### 2. Respiratory Disease Death Rate by Ammonium Levels
  
 A four-dashboard analysis testing the relationship between environmental ammonium concentration and respiratory disease mortality. Key findings: respiratory death rates vary sharply by state, ammonium levels have risen significantly over the last fifty years, and an ordinary least squares regression confirms a statistically meaningful relationship between ammonium concentration and respiratory death rates at the county level.
  
 - **Intro dashboard:** [view on Tableau Public](https://public.tableau.com/shared/WCG4GYP5W?:display_count=n&:origin=viz_share_link)
-- **Respiratory rate and ammonium maps:** [view on Tableau Public](https://public.tableau.com/shared/NTRPM2BZP?:display_count=n&:origin=viz_share_link)
-- **Comparative bar charts:** [view on Tableau Public](https://public.tableau.com/shared/56Z5Q84H4?:display_count=n&:origin=viz_share_link)
-- **OLS linear regression model:** [view on Tableau Public](https://public.tableau.com/shared/P7FZY3BKF?:display_count=n&:origin=viz_share_link)
  
 ---
  
