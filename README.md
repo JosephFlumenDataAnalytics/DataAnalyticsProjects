@@ -8,35 +8,6 @@ Interactive dashboards, statistical modeling, and machine learning projects buil
  
 **Core tools:** Python, SQL, MySQL, Tableau, pandas, NumPy, scikit-learn, statsmodels, TensorFlow, seaborn, matplotlib, mlxtend
  
----
- 
-## Featured Tableau Dashboards
- 
-> Note: replace the image paths below with the actual PNG filenames in your `/Dashboards` folder so the previews always render. Relative paths keep them from expiring.
- 
-### 1. Hospital Readmission Rate by Regional Pollutant Levels
- 
-An interactive tool exploring whether environmental pollutant levels correlate with hospital readmission rates at the county level. Surfaces two patterns: longer hospital stays carry a higher readmission risk, and a wide range of pollutants have risen across the United States over the last fifty years.
- 
-- **Intro dashboard:** [view on Tableau Public](https://public.tableau.com/app/profile/josephflumen/viz/HospitalReAdmissionRatebyRegionalPollutantsAnalysis/HospitalReAdmissionRatebyRegionalPollutantAnalysis)
-- **Pollutant and readmission maps:** [view on Tableau Public](https://public.tableau.com/shared/WC8NG6Q28?:display_count=n&:origin=viz_share_link)
-- **Pollutants by state, comparative bar chart:** [view on Tableau Public](https://public.tableau.com/shared/DRHBQXK72?:display_count=n&:origin=viz_share_link)
-![Hospital readmission intro dashboard](./Dashboards/readmission-intro.png)
-![Pollutant and readmission maps](./Dashboards/readmission-maps.png)
- 
-### 2. Respiratory Disease Death Rate by Ammonium Levels
- 
-A four-dashboard analysis testing the relationship between environmental ammonium concentration and respiratory disease mortality. Key findings: respiratory death rates vary sharply by state, ammonium levels have risen significantly over the last fifty years, and an ordinary least squares regression confirms a statistically meaningful relationship between ammonium concentration and respiratory death rates at the county level.
- 
-- **Intro dashboard:** [view on Tableau Public](https://public.tableau.com/shared/WCG4GYP5W?:display_count=n&:origin=viz_share_link)
-- **Respiratory rate and ammonium maps:** [view on Tableau Public](https://public.tableau.com/shared/NTRPM2BZP?:display_count=n&:origin=viz_share_link)
-- **Comparative bar charts:** [view on Tableau Public](https://public.tableau.com/shared/56Z5Q84H4?:display_count=n&:origin=viz_share_link)
-- **OLS linear regression model:** [view on Tableau Public](https://public.tableau.com/shared/P7FZY3BKF?:display_count=n&:origin=viz_share_link)
-![Respiratory disease intro dashboard](./Dashboards/respiratory-intro.png)
-![Respiratory OLS regression dashboard](./Dashboards/respiratory-regression.png)
- 
----
- 
 ## Analytics & Machine Learning Projects
  
 A collection of projects completed during my Master of Science in Data Analytics. Most analyze a 10,000-record hospital patient dataset covering detailed clinical and demographic information.
