@@ -1,8 +1,9 @@
 # Data Analytics Portfolio
  
-Interactive dashboards, statistical modeling, and machine learning projects built with **SQL, Python, and Tableau**. The work here spans public health, environmental data, and operational analytics, with a focus on turning complex datasets into clear, decision-ready insights.
+Interactive dashboards, statistical modeling, and machine learning projects built with **SQL, Python, and Tableau**. The work here spans public health, environmental data, and operational analytics, with a focus on turning complex datasets into actionable insights.
  
 **Tableau dashboards:** [Tableau Public profile](https://public.tableau.com/app/profile/josephflumen/vizzes)
+
 **Flumen Data Analytics platform:** [flumendataanalytics.com](https://flumendataanalytics.com)
  
 **Core tools:** Python, SQL, MySQL, Tableau, pandas, NumPy, scikit-learn, statsmodels, TensorFlow, seaborn, matplotlib, mlxtend
