@@ -15,12 +15,18 @@ Interactive dashboards, statistical modeling, and machine learning projects buil
 ### 1. Hospital Readmission Rate by Regional Pollutant Levels
  
 An interactive tool exploring whether environmental pollutant levels correlate with hospital readmission rates at the county level. Surfaces two patterns: longer hospital stays carry a higher readmission risk, and a wide range of pollutants have risen across the United States over the last fifty years.
- 
+
+<img width="1920" height="1080" alt="ReAdmisandPollutantMaps" src="https://github.com/user-attachments/assets/9c6c8e47-db69-4bca-be8b-89bfb96fd0e2" />
+
 [view on Tableau Public](https://public.tableau.com/app/profile/josephflumen/viz/HospitalReAdmissionRatebyRegionalPollutantsAnalysis/HospitalReAdmissionRatebyRegionalPollutantAnalysis)
+
  
 ### 2. Respiratory Disease Death Rate by Ammonium Levels
  
 A four-dashboard analysis testing the relationship between environmental ammonium concentration and respiratory disease mortality. Key findings: respiratory death rates vary sharply by state, ammonium levels have risen significantly over the last fifty years, and an ordinary least squares regression confirms a statistically meaningful relationship between ammonium concentration and respiratory death rates at the county level.
+
+<img width="1856" height="790" alt="Ammn" src="https://github.com/user-attachments/assets/31740eaf-ae78-45ee-af59-2f8deba04259" />
+
  
 [view on Tableau Public](https://public.tableau.com/shared/WCG4GYP5W?:display_count=n&:origin=viz_share_link)
  
