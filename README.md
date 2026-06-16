@@ -63,4 +63,43 @@ A collection of projects completed during my Master of Science in Data Analytics
 **Visualization:** Tableau, seaborn, matplotlib
 
 **Databases:** MySQL
+
  
+# E-commerce Metabase dashboard SQL
+
+SQL queries for the e-commerce dashboards built in Metabase, organized
+one file per dashboard. These are the raw metabase SQL queries of the dashboards on the live Flumen website.
+
+## Files
+
+| File | Dashboard | Cards |
+|---|---|---|
+| `01_voice_of_customer.sql` | Voice of Customer | Avg CSAT, NPS Score, CSAT over time, NPS over time, CSAT distribution, NPS breakdown, CSAT by topic, recent feedback |
+| `02_customer_retention.sql` | Customer Retention | Returning customer rate, new vs returning, cohort size vs retention, new customer acquisition, cohort heatmap (optional) |
+| `03_sales_per_employee.sql` | Sales per Employee | Sales leaderboard, avg revenue per employee |
+| `04_customer_service.sql` | Customer Service Rating | Rating leaderboard, avg rating over time, ticket volume, by issue category, by channel |
+| `05_employee_attendance.sql` | Employee Attendance | Attendance rate by employee, status breakdown by month, attendance rate by department |
+| `06_financial_kpis.sql` | Financial KPIs | Gross margin %, operating expenses, net profit, COGS |
+| `07_inventory.sql` | Inventory | Avg inventory value, current stock by category, inventory turnover (monthly and rolling 12-month versions) |
+| `08_order_fulfillment.sql` | Order Fulfillment | On-time delivery rate, days to deliver by ship mode, status breakdown, by region, monthly volume |
+| `09_revenue_and_sales.sql` | Revenue & Sales | Revenue by segment, by acquisition channel, average order value, discount impact |
+| `10_product_analytics.sql` | Product Analytics | Top products, COGS vs gross profit by category, return rate by category, revenue by category over time |
+
+
+## Filter conventions used throughout
+
+Every card with a date dependency uses a Metabase field filter variable with
+the optional `[[AND {{variable}}]]` or `[[WHERE {{variable}}]]` syntax, so the
+card runs with or without a date selected. Two variable names appear across
+files, mapped to the field noted in each file's header comment.
+
+Widget type convention: KPI **Trend** cards use **Month and Year**, since
+they compare one month to the previous. Every other chart type (Line, Bar,
+Stacked Bar, Table) uses **Date Range**, so a span of time can be selected.
+
+A small number of cards (customer retention's cohort/new-vs-returning queries,
+inventory's turnover, current stock) intentionally have no date filter, or a
+fixed "most recent snapshot" condition. The reason is noted in a comment
+directly above each of those queries; filtering them would either break a
+first-order/cohort calculation or wouldn't make sense for a point-in-time
+metric like current stock level.
