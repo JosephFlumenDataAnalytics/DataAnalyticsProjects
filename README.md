@@ -2,9 +2,8 @@
  
 Interactive dashboards, statistical modeling, and machine learning projects built with **SQL, Python, and Tableau**. The work here spans public health, environmental data, and operational analytics, with a focus on turning complex datasets into clear, decision-ready insights.
  
-**Live dashboards:** [Tableau Public profile](https://public.tableau.com/app/profile/josephflumen/vizzes)
-**Analytics platform:** [flumendataanalytics.com](https://flumendataanalytics.com)
-**LinkedIn:** [linkedin.com/in/joseph-v-3182983a5](https://www.linkedin.com/in/joseph-v-3182983a5)
+**Tableau dashboards:** [Tableau Public profile](https://public.tableau.com/app/profile/josephflumen/vizzes)
+**Flumen Data Analytics platform:** [flumendataanalytics.com](https://flumendataanalytics.com)
  
 **Core tools:** Python, SQL, MySQL, Tableau, pandas, NumPy, scikit-learn, statsmodels, TensorFlow, seaborn, matplotlib, mlxtend
  
