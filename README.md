@@ -50,7 +50,10 @@ A collection of projects completed during my Master of Science in Data Analytics
 ## Tools & Libraries
  
 **Languages:** Python, SQL
+
 **Data & modeling:** pandas, NumPy, scikit-learn, statsmodels, TensorFlow, mlxtend
+
 **Visualization:** Tableau, seaborn, matplotlib
+
 **Databases:** MySQL
  
